@@ -1,0 +1,105 @@
+{
+ "n": 1000,
+ "benim": {
+  "acc": 0.279,
+  "acc_norm": 0.235,
+  "z": -1.0954451150103333
+ },
+ "openai": {
+  "acc": 0.335,
+  "acc_norm": 0.34,
+  "z": 6.572670690061995
+ },
+ "se": 0.013693063937629153,
+ "ayrisma": {
+  "ikisi": 110,
+  "sadece_ben": 125,
+  "sadece_oai": 230,
+  "hicbiri": 535,
+  "beklenen_ikisi": 79.9,
+  "phi": 0.14986161916845755,
+  "z": 3.5105534565122616
+ },
+ "yayilim": {
+  "benim": 1.4920670404434204,
+  "openai": 1.4789014947414398
+ },
+ "gruplar": {
+  "indomain": {
+   "n": 579,
+   "benim": 0.24352331606217617,
+   "openai": 0.30397236614853196
+  },
+  "zeroshot": {
+   "n": 421,
+   "benim": 0.22327790973871733,
+   "openai": 0.38954869358669836
+  }
+ },
+ "uzunluk": {
+  "kisa": {
+   "benim": 231,
+   "openai": 272,
+   "etiket": 264,
+   "benim_acc": 805,
+   "openai_acc": 702
+  },
+  "uzun": {
+   "benim": 249,
+   "openai": 225,
+   "etiket": 244,
+   "benim_acc": 4,
+   "openai_acc": 18
+  },
+  "dagilim": [
+   241,
+   245,
+   253,
+   261
+  ]
+ },
+ "ornek": {
+  "ctx": "Then he takes a piece of bark and rubs the powered stone pieces onto it. The stone particles stick to the wet piece of wood. he",
+  "endings": [
+   "uses a small brush to polish one of the stone pieces.",
+   "then uses a strip of sealing tape to seal the board and then smooths the bottom of the board.",
+   "walks towards the camera.",
+   "then takes the knife and sharpens it against the wood piece."
+  ],
+  "label": 3,
+  "benim": [
+   6.419626712799072,
+   6.3911519050598145,
+   6.462174892425537,
+   6.588881492614746
+  ],
+  "openai": [
+   2.784147024154663,
+   2.8756847381591797,
+   3.7294058799743652,
+   2.528681755065918
+  ],
+  "benim_secim": 1,
+  "openai_secim": 3
+ },
+ "referans": {
+  "acc": 0.28719378609838675,
+  "acc_norm": 0.2967536347341167,
+  "karpathy_acc": 0.2859,
+  "karpathy_norm": 0.2955,
+  "hassasiyet": "bf16",
+  "n": 10042
+ },
+ "kaynak": {
+  "activitynet": {
+   "ilk_pay": 0.863,
+   "tum_pay": 0.27982473610834496,
+   "openai": 0.3416370106761566
+  },
+  "wikihow": {
+   "ilk_pay": 0.137,
+   "tum_pay": 0.7201752638916551,
+   "openai": 0.2793141592920354
+  }
+ }
+}

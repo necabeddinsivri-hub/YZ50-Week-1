@@ -1,0 +1,8 @@
+Bu klasore elle konmasi gereken buyuk dosyalar (depoda yok):
+
+veri/ham/fineweb_edu_4k.jsonl          FineWeb-Edu sample-10BT ilk 4.000 belge (HF satir API'si)
+veri/ham/hellaswag_validation.parquet  Hugging Face Rowan/hellaswag, validation
+veri/ham/hellaswag_tr_validation.parquet  Hugging Face malhajar/hellaswag-tr, validation
+veri/agirlik/model.safetensors         Hugging Face openai-community/gpt2 (MD5 8b9634194d1029deff7964617b8bcc75)
+
+veri/shardlar/, veri/shardlar_tr/, veri/checkpoint/ betiklerle yeniden uretilir.

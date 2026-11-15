@@ -1,0 +1,56 @@
+{
+ "belge": 4000,
+ "karakter": 18988635,
+ "token": 4138652,
+ "shard_boyu": 500000,
+ "dosyalar": [
+  {
+   "ad": "edufineweb_val_000000.npy",
+   "tur": "val",
+   "token": 500000
+  },
+  {
+   "ad": "edufineweb_train_000001.npy",
+   "tur": "train",
+   "token": 500000
+  },
+  {
+   "ad": "edufineweb_train_000002.npy",
+   "tur": "train",
+   "token": 500000
+  },
+  {
+   "ad": "edufineweb_train_000003.npy",
+   "tur": "train",
+   "token": 500000
+  },
+  {
+   "ad": "edufineweb_train_000004.npy",
+   "tur": "train",
+   "token": 500000
+  },
+  {
+   "ad": "edufineweb_train_000005.npy",
+   "tur": "train",
+   "token": 500000
+  },
+  {
+   "ad": "edufineweb_train_000006.npy",
+   "tur": "train",
+   "token": 500000
+  },
+  {
+   "ad": "edufineweb_train_000007.npy",
+   "tur": "train",
+   "token": 500000
+  },
+  {
+   "ad": "edufineweb_train_000008.npy",
+   "tur": "train",
+   "token": 138652
+  }
+ ],
+ "train_token": 3638652,
+ "val_token": 500000,
+ "kar_token": 4.588120721432969
+}

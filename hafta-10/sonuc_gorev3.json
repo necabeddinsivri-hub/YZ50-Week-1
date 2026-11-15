@@ -1,0 +1,72 @@
+{
+ "ingilizce": "Hello, I am a language model,",
+ "turkce": "Merhaba, ben bir dil modeliyim,",
+ "ing_token": 8,
+ "tur_token": 11,
+ "ing_ciktilar": [
+  "Hello, I am a language model, not a design language.\n\nI have a pretty clear understanding of syntax and grammar.\n\nI try to avoid errors, but that can vary",
+  "Hello, I am a language model, I use an exacted syntax.\n\n\"Do you think you can be anything?\"\n\nHe glanced around at me. \"Oh, I",
+  "Hello, I am a language model, that's not something to me,\" she said.\n\nBarker's mother, Julie Barba, said the sentence was one of her proud",
+  "Hello, I am a language model, not a language program. I am a language creator,\" she said.\n\n\"It is an opportunity for myself and our team to grow. This",
+  "Hello, I am a language model, I would like to use it to help my students with any language problems. This tutorial will work for you and to help you to get started with language"
+ ],
+ "tur_ciktilar": [
+  "Merhaba, ben bir dil modeliyim, ben bev, ben brach,\n\ne kos shayim mikdash mikdash, bilah, akh'",
+  "Merhaba, ben bir dil modeliyim, mizuktir umegy, andy kalayim ayu. Noob is zaman saal hain, so I",
+  "Merhaba, ben bir dil modeliyim, de khatat. Nihat al-lik.\n\n(1) To understand the principles of a living organism based on a set",
+  "Merhaba, ben bir dil modeliyim, ben shaḭam, ben haddan. Ayaš, ben haddan, ben baḹa, ben ba�",
+  "Merhaba, ben bir dil modeliyim, aenim yitim, bistyim iniakhim gimraddim. The idea of a special meaning of the words"
+ ],
+ "ciftler": [
+  [
+   "Merhaba, ben bir dil modeliyim,",
+   11,
+   "Hello, I am a language model,",
+   8
+  ],
+  [
+   "Türkiye'nin başkenti Ankara'dır.",
+   16,
+   "The capital of Turkey is Ankara.",
+   7
+  ],
+  [
+   "Bugün hava çok güzel ve dışarı çıkmak istiyorum.",
+   27,
+   "The weather is very nice today and I want to go outside.",
+   13
+  ],
+  [
+   "Çiğdem'in ağırlığı yetmiş iki kilogram.",
+   22,
+   "Cigdem's weight is seventy two kilograms.",
+   10
+  ]
+ ],
+ "tr_toplam": 76,
+ "en_toplam": 38,
+ "oran": 2.0,
+ "tur_parcalar": [
+  "Mer",
+  "hab",
+  "a",
+  ",",
+  " ben",
+  " bir",
+  " dil",
+  " model",
+  "iy",
+  "im",
+  ","
+ ],
+ "ing_parcalar": [
+  "Hello",
+  ",",
+  " I",
+  " am",
+  " a",
+  " language",
+  " model",
+  ","
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "param": 124439808,
+ "testler": [
+  "Hello, I am a language model,",
+  "The capital of France is",
+  "Merhaba, ben bir dil modeliyim,",
+  "def fibonacci(n):\n    if n < 2:",
+  "1 2 3 4 5 6 7 8 9"
+ ],
+ "farklar": [
+  7.62939453125e-05,
+  6.103515625e-05,
+  6.103515625e-05,
+  0.000152587890625,
+  0.0001125335693359375
+ ],
+ "hepsi": true,
+ "rastgele_fark": 9.918212890625e-05,
+ "hf_yuklenen": 148
+}

@@ -1,0 +1,7 @@
+Bu klasorde model.safetensors YOK (548 MB, GitHub'a yuklenemeyecek kadar
+buyuk). Kodu calistirmak icin su dosyayi buraya indir:
+
+  https://huggingface.co/openai-community/gpt2/tree/main
+  -> model.safetensors
+
+config.json ve gpt2.tiktoken (tokenizer tablosu) zaten burada.
