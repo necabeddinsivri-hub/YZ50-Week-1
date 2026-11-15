@@ -1,70 +1,26 @@
-# YZ50 - Hafta 6: Kendi torch.nn'im ve WaveNet
+# YZ50 Full Track: Sıfırdan Sinir Ağları ve GPT
 
-Iki is yaptim. Birincisi: Hafta 4'teki dagınık kodu katman siniflarina
-topladim (Linear, BatchNorm1d, Tanh, Embedding, Flatten, Sequential).
-Ikincisi: baglami 3 harften 8 harfe cikardim ve 8 harfi tek seferde
-duzlestirmek yerine ikiser ikiser birlestiren bir agac kurdum (WaveNet,
-DeepMind 2016).
+Necabeddin Sivri'nin YZ50 Full Track çalışmaları. Program Andrej Karpathy'nin "Neural Networks: Zero to Hero" serisini takip ediyor: tek bir nörondan başlayıp kendi yazdığım GPT-2 (124M) modelini eğitip HellaSwag ile ölçmeye kadar. Her hafta kendi klasöründe; her klasörde kod, gerçek çalıştırmalardan çıkan sonuçlar ve o haftanın README'si var. Hafta 5 ve sonrasındaki çoğu haftada teknik not (Word) ve sunum (PowerPoint) da var.
 
-## Dosyalar
+## Haftalar
 
-- `katmanlar.py`             - kendi katman siniflarim (torch.nn yerine)
-- `ortak.py`                 - veri hazirlama, egitim, degerlendirme
-- `gorev1_siniflar.py`       - Hafta 4 modeli tek Sequential olarak + loss egrisi
-- `gorev2_baglam8.py`        - baglam 3 -> 8, ayni duz model (taban)
-- `gorev3_wavenet.py`        - hiyerarsik model, her katmanin sekli ve aciklamasi
-- `gorev4_batchnorm_hatasi.py` - 3 boyutlu girdide BatchNorm hatasi, once/sonra
-- `gorev5_buyutme.py`        - uc modelli karsilastirma tablosu
-- `gorev6_turkce.py`         - ayni WaveNet Turkce isimlerle
-- `gorev7_ek_conv1d.py`      - (ek, secenek a) ayni agac Conv1d ile
-- `gorseller.py`             - diyagramlar (egitim yok)
-- `names.txt`, `isimler.txt` - veri
-- `deney_notu.md`            - sonuclar ve aciklamalar
-
-## Calistirma
-
-    pip install torch matplotlib
-
-    python gorev1_siniflar.py          # ~20 sn
-    python gorev2_baglam8.py           # ~45 sn
-    python gorev3_wavenet.py           # ~40 sn
-    python gorev4_batchnorm_hatasi.py  # ~80 sn
-    python gorev5_buyutme.py           # ~3 dk
-    python gorev6_turkce.py            # ~2 dk
-    python gorev7_ek_conv1d.py         # ~30 sn
-
-## Ana sonuc (Gorev 5)
-
-Embedding 24, 60.000 adim:
-
-| model | parametre | dev loss |
+| Hafta | Konu | Klasör |
 |---|---|---|
-| baglam 3, duz MLP | 20.875 | 2.1030 |
-| baglam 8, duz MLP | 44.875 | 2.0101 |
-| baglam 8, WaveNet | 76.579 | 1.9942 |
+| 1 | Tek nöron: ağırlıklı toplam, bias, sigmoid ve tanh | [hafta-1](https://github.com/necabeddinsivri-hub/YZ50-Week-1/tree/main/hafta-1) |
+| 2 | micrograd: Value sınıfı, otomatik türev, küçük bir ağı eğitmek | [hafta-2](https://github.com/necabeddinsivri-hub/YZ50-Week-1/tree/main/hafta-2) |
+| 3 | makemore 1: sayım ile bigram, örnekleme, NLL, sinir ağı ile bigram, Türkçe isimler, trigram | [hafta-3](https://github.com/necabeddinsivri-hub/YZ50-Week-1/tree/main/hafta-3) |
+| 4 | makemore 2-3: MLP, embedding, başlangıç ağırlıkları, BatchNorm, Türkçe isimler | [Week4](https://github.com/necabeddinsivri-hub/YZ50-Week-1/tree/main/Week4) |
+| 5 | Backprop Ninja: geri yayılımı elle yazmak ve PyTorch ile doğrulamak | [Week5](https://github.com/necabeddinsivri-hub/YZ50-Week-1/tree/main/Week5) |
+| 6 | Kendi torch.nn katmanlarım ve WaveNet (bağlam 3'ten 8'e, hiyerarşik birleştirme) | [hafta-6](https://github.com/necabeddinsivri-hub/YZ50-Week-1/tree/main/hafta-6) |
+| 7 | GPT'ye giriş: bigram dil modeli ve self-attention | [hafta-7](https://github.com/necabeddinsivri-hub/YZ50-Week-1/tree/main/hafta-7) |
+| 8 | Çok başlı dikkat, residual, LayerNorm, dropout: tam Transformer | [hafta-8](https://github.com/necabeddinsivri-hub/YZ50-Week-1/tree/main/hafta-8) |
+| 9 | Tokenizer: BPE'yi sıfırdan yazmak, GPT-2 tokenizer ile karşılaştırma | [hafta-9](https://github.com/necabeddinsivri-hub/YZ50-Week-1/tree/main/hafta-9) |
+| 10 | GPT-2 (124M) modelini kendi kodumla kurmak ve OpenAI ağırlıklarını yüklemek | [hafta-10](https://github.com/necabeddinsivri-hub/YZ50-Week-1/tree/main/hafta-10) |
+| 11 | Hızlandırma ve GPT-3 eğitim ayarları: veri yükleyici, weight tying, init, bf16, torch.compile, AdamW, LR planı, gradient accumulation | [hafta-11](https://github.com/necabeddinsivri-hub/YZ50-Week-1/tree/main/hafta-11) |
+| 12 | Final: FineWeb-Edu ile eğitim, doğrulama kaybı, HellaSwag (kendi modelim ve OpenAI GPT-2), Türkçe ek çalışma | [hafta-12](https://github.com/necabeddinsivri-hub/YZ50-Week-1/tree/main/hafta-12) |
 
-Karpathy'nin videodaki sonucu 1.993 (200.000 adim).
+## Çalışma ilkeleri
 
-## BatchNorm hatasi (Gorev 4)
-
-| BatchNorm | running_mean sekli | dev loss |
-|---|---|---|
-| hatali, mean(0) | (1, 4, 68) | 2.0890 |
-| duzeltilmis, mean((0,1)) | (1, 1, 68) | 2.0779 |
-
-## Turkce (Gorev 6)
-
-| model | dev loss |
-|---|---|
-| Hafta 4 MLP | 2.3183 |
-| Hafta 6 baglam 3 MLP | 2.2974 |
-| Hafta 6 baglam 8 WaveNet | 2.1829 |
-
-Urettigi isimler: ziyangul, gulfizar, gunmaz, eymet, gunayse, sememan
-
-## Ek gorev (Conv1d)
-
-Egitilmis WaveNet'in agirliklarini Conv1d'ye kopyaladim:
-- kernel 2, stride 2 konvolusyon: maks fark 1.55e-06
-- dilated konvolusyon (1, 2, 4): bir ismin 7 pozisyonu tek geciste,
-  maks fark 1.43e-06, 49 yerine 31 islem
+- Tablolardaki ve grafiklerdeki her sayı gerçek bir çalıştırmadan geliyor; tahminlerim çalıştırmadan önce yazıldı ve tutmayanlar da raporlandı.
+- Eğitimler GPU olmadan, CPU üzerinde yapıldı; bu yüzden ölçekler Karpathy'nin derslerinden küçük ve her haftanın README'sinde ayrıca belirtiliyor.
+- Klasörler kendi başına çalışacak şekilde düzenlendi; gereken küçük veri dosyaları (isim listeleri, tokenizer dosyası) klasörün içinde.
