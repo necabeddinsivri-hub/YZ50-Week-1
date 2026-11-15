@@ -1,0 +1,13 @@
+{
+ "birlestirme": 100000,
+ "rank": 100256,
+ "elle_test": 13,
+ "elle_ayni": true,
+ "metin_karakter": 40000,
+ "metin_tiktoken": 15932,
+ "metin_benim": 15932,
+ "metin_ayni": true,
+ "rastgele": 300,
+ "rastgele_bozuk": 0,
+ "decode_ok": true
+}

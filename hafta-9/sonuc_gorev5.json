@@ -1,0 +1,373 @@
+{
+ "TR": "Geçen hafta küçük bir dil modeli eğittim. Model önce metni harf harf okuyordu, şimdi kelime parçaları halinde okuyor. Çalıştırdığım bilgisayarda ekran kartı olmadığı için modeli küçülttüm. Yine de ürettiği cümlelerin yapısı şaşırtıcı derecede düzgün çıktı. Öğrendiğim en önemli şey, bir sayıyı ancak ölçüm koşulları aynıysa karşılaştırabileceğim oldu.",
+ "EN": "Last week I trained a small language model. The model used to read the text letter by letter, and now it reads it in word pieces. Because the computer I ran it on has no graphics card, I made the model smaller. Even so, the structure of the sentences it produced turned out surprisingly clean. The most important thing I learned is that I can only compare a number when the measurement conditions are the same.",
+ "gpt4_tr": {
+  "ad": "Turkce",
+  "karakter": 351,
+  "byte": 409,
+  "kelime": 47,
+  "token": 148,
+  "token_kelime": 3.148936170212766,
+  "byte_token": 2.7635135135135136
+ },
+ "gpt4_en": {
+  "ad": "Ingilizce",
+  "karakter": 410,
+  "byte": 410,
+  "kelime": 76,
+  "token": 84,
+  "token_kelime": 1.105263157894737,
+  "byte_token": 4.880952380952381
+ },
+ "benim_temel": {
+  "ad": "benim (temel)",
+  "karakter": 351,
+  "byte": 409,
+  "kelime": 47,
+  "token": 150,
+  "token_kelime": 3.1914893617021276,
+  "byte_token": 2.7266666666666666
+ },
+ "benim_regex": {
+  "ad": "benim (regex)",
+  "karakter": 351,
+  "byte": 409,
+  "kelime": 47,
+  "token": 148,
+  "token_kelime": 3.148936170212766,
+  "byte_token": 2.7635135135135136
+ },
+ "harf": {
+  "ad": "harf (Hafta 8)",
+  "karakter": 351,
+  "byte": 409,
+  "kelime": 47,
+  "token": 351,
+  "token_kelime": 7.468085106382978,
+  "byte_token": 1.1652421652421652
+ },
+ "tr_parcalar": [
+  "Ge",
+  "ç",
+  "en",
+  " ha",
+  "ft",
+  "a",
+  " kü",
+  "ç",
+  "ük",
+  " bir",
+  " dil",
+  " model",
+  "i",
+  " e",
+  "ğ",
+  "itt",
+  "im",
+  ".",
+  " Model",
+  " ö",
+  "nce",
+  " met",
+  "ni",
+  " har",
+  "f",
+  " har",
+  "f",
+  " ok",
+  "uy",
+  "ord",
+  "u",
+  ",",
+  " ş",
+  "im",
+  "di",
+  " kel",
+  "ime",
+  " par",
+  "ç",
+  "alar",
+  "ı",
+  " hal",
+  "inde",
+  " ok",
+  "uy",
+  "or",
+  ".",
+  " Ç",
+  "alış",
+  "t",
+  "ı",
+  "rd",
+  "ığ",
+  "ım",
+  " bil",
+  "gis",
+  "ay",
+  "arda",
+  " ek",
+  "ran",
+  " kart",
+  "ı",
+  " ol",
+  "mad",
+  "ığı",
+  " için",
+  " model",
+  "i",
+  " kü",
+  "ç"
+ ],
+ "en_parcalar": [
+  "Last",
+  " week",
+  " I",
+  " trained",
+  " a",
+  " small",
+  " language",
+  " model",
+  ".",
+  " The",
+  " model",
+  " used",
+  " to",
+  " read",
+  " the",
+  " text",
+  " letter",
+  " by",
+  " letter",
+  ",",
+  " and",
+  " now",
+  " it",
+  " reads",
+  " it",
+  " in",
+  " word",
+  " pieces",
+  ".",
+  " Because",
+  " the",
+  " computer",
+  " I",
+  " ran",
+  " it",
+  " on",
+  " has",
+  " no",
+  " graphics",
+  " card",
+  ",",
+  " I",
+  " made",
+  " the",
+  " model",
+  " smaller",
+  ".",
+  " Even",
+  " so",
+  ",",
+  " the",
+  " structure",
+  " of",
+  " the",
+  " sentences",
+  " it",
+  " produced",
+  " turned",
+  " out",
+  " surprisingly",
+  " clean",
+  ".",
+  " The",
+  " most",
+  " important",
+  " thing",
+  " I",
+  " learned",
+  " is",
+  " that"
+ ],
+ "benim_parcalar": [
+  "G",
+  "eç",
+  "en ",
+  "haf",
+  "ta ",
+  "k",
+  "üçük ",
+  "bir ",
+  "d",
+  "il",
+  " m",
+  "o",
+  "de",
+  "li ",
+  "eğ",
+  "it",
+  "t",
+  "im",
+  ". ",
+  "M",
+  "o",
+  "de",
+  "l",
+  " ",
+  "önce ",
+  "met",
+  "n",
+  "i ",
+  "har",
+  "f",
+  " h",
+  "ar",
+  "f",
+  " ",
+  "ok",
+  "uyor",
+  "du",
+  ", ",
+  "ş",
+  "im",
+  "di ",
+  "k",
+  "el",
+  "im",
+  "e ",
+  "par",
+  "ç",
+  "aları ",
+  "hal",
+  "inde ",
+  "ok",
+  "uyor",
+  ". ",
+  "Ç",
+  "alış",
+  "tır",
+  "d",
+  "ığ",
+  "ım",
+  " b"
+ ],
+ "ciftler": [
+  [
+   "ev",
+   1,
+   "house",
+   1
+  ],
+  [
+   "evim",
+   2,
+   "my house",
+   2
+  ],
+  [
+   "evimde",
+   3,
+   "in my house",
+   3
+  ],
+  [
+   "evlerimizden",
+   5,
+   "from our houses",
+   3
+  ],
+  [
+   "çalıştırdığım",
+   7,
+   "that I ran",
+   3
+  ],
+  [
+   "karşılaştırabileceğim",
+   9,
+   "that I will be able to compare",
+   7
+  ],
+  [
+   "Çiğdem",
+   4,
+   "Margaret",
+   2
+  ],
+  [
+   "İstanbul'da",
+   4,
+   "in Istanbul",
+   2
+  ]
+ ],
+ "tr_pahali": [
+  [
+   "karşılaştırabileceğim",
+   9
+  ],
+  [
+   "küçülttüm.",
+   7
+  ],
+  [
+   "Çalıştırdığım",
+   7
+  ],
+  [
+   "Öğrendiğim",
+   6
+  ],
+  [
+   "okuyordu,",
+   5
+  ],
+  [
+   "cümlelerin",
+   5
+  ],
+  [
+   "şaşırtıcı",
+   5
+  ],
+  [
+   "eğittim.",
+   5
+  ]
+ ],
+ "en_pahali": [
+  [
+   "smaller.",
+   3
+  ],
+  [
+   "so,",
+   2
+  ],
+  [
+   "pieces.",
+   2
+  ],
+  [
+   "produced",
+   2
+  ],
+  [
+   "learned",
+   2
+  ],
+  [
+   "letter,",
+   2
+  ],
+  [
+   "same.",
+   2
+  ],
+  [
+   "surprisingly",
+   2
+  ]
+ ]
+}

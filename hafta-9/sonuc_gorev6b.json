@@ -1,0 +1,27 @@
+{
+ "V": 1024,
+ "param": 1063168,
+ "train": 3.2048699855804443,
+ "val": 3.6946346759796143,
+ "sure": 941.3814589977264,
+ "token": 393269,
+ "karakter": 962254,
+ "karakter_basina_token": 0.40869562506365265,
+ "h8_val": 1.5841,
+ "h8_train": 1.6233,
+ "h8_V": 87,
+ "h8_param": 822359,
+ "h8_bpc": 2.285373214272207,
+ "h9_bpc": 2.1784421413378987,
+ "ornek": "unlar kara karşı halka oturup eski varmış ve eksiklik ve bu yapılmaz arayışlarının, enerjisini komiteli alabilecek bir toplayan kurallarda takım.\nÜstekinden kaldığı şesadeyina yapılan açık görevlerinin önüne geldiği kadar son maden söz verdiği seslerle kapsamında mu?\" Tekniklik ve eksik bir ortadema istemiyorsun.\n\"Büyük bir bilgisayarda herhangi bir sağlıkla ilgili .\nSırgan, bizler bütün soru sağlıklı cihayet yapacağına gözden sürüyor ve sistemi hiç bırakmayan Framporı'nda hiç konuşmamıştır .\nPhilci finansman interle eski her evrenler desafe bağlayışı yapmaması koydu .\nBay Kurghoğu Conn'nin Britan Fakültler Reetğini verecek gelişmesi üzerine gösterdiği ve hizmet yok .\nbir şey biltiğim zoğudanlara göre ödünç olan bir gün Batı Çengenektörde Çanksi Özel bir yürülmeyince yıl için Irak aynı zamanlarmış olurdu umlu bir yerde gelip, miydi.\nDördünüz aile ile ilgilenen bunları halde, bilgisayar, insanların, çökmemişsinizi okum olma kesin kaprizyondan zayıf bir çekecek...\nİnştet ideoliste aklınız teşebbüsüne konuları",
+ "config": {
+  "n_embd": 128,
+  "n_head": 4,
+  "n_blok": 4,
+  "block": 64,
+  "dropout": 0.1,
+  "batch": 32,
+  "adim": 4000,
+  "lr": 0.0003
+ }
+}

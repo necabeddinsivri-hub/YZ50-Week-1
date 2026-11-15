@@ -1,0 +1,108 @@
+{
+ "1_bigram": {
+  "ad": "bigram (taban)",
+  "param": 4225,
+  "train": 2.457265853881836,
+  "val": 2.4768898487091064,
+  "sure": 8.416878938674927
+ },
+ "2_tek_head": {
+  "ad": "tek head",
+  "param": 7553,
+  "train": 2.388214111328125,
+  "val": 2.3998382091522217,
+  "sure": 18.62374997138977
+ },
+ "3_multi_head": {
+  "ad": "multi-head (4x8)",
+  "param": 8609,
+  "train": 2.2561821937561035,
+  "val": 2.260424852371216,
+  "sure": 35.36614155769348
+ },
+ "4_feedforward": {
+  "ad": "4) multi-head + feedforward",
+  "param": 16961,
+  "train": 2.159735918045044,
+  "val": 2.1818222999572754,
+  "sure": 44.95414996147156
+ },
+ "4b_blok_duz": {
+  "ad": "4b) 3 blok, residual YOK (teshis)",
+  "param": 41921,
+  "train": 2.267224073410034,
+  "val": 2.2810590267181396,
+  "sure": 104.24822735786438
+ },
+ "5_residual": {
+  "ad": "5) 3 blok + residual",
+  "param": 41921,
+  "train": 1.9846317768096924,
+  "val": 2.0700414180755615,
+  "sure": 102.74741125106812
+ },
+ "6_layernorm": {
+  "ad": "6) 3 blok + residual + LayerNorm",
+  "param": 42369,
+  "train": 1.9774383306503296,
+  "val": 2.0520429611206055,
+  "sure": 117.61736726760864
+ },
+ "_ornek_shakespeare_kucuk": "\nMORDYOLIO:\nThat you morrer: bune, onothnes not.  HENRY Sad Edwore magrouqures,\nYou that God,\nHlows,\n\nDUKE WANUSu\nceasies famen, me'lial not lale colver?\n\nIghpreng is re, wayn if the stanty.\n\nPOMERKE VINT:\nWhy it yet us and wome her,\nWellublaime, to no be mome'as weres\nThe it but cony I that that whit tho do we wees'\nSo of to his by to wife, thout strist hourssempse mirkintbo-mood, Frown.\ndo jousci",
+ "7_olcekli_dropoutsuz": {
+  "ad": "olcekli (dropout YOK)",
+  "param": 816705,
+  "train": 1.4055300951004028,
+  "val": 1.6113173961639404,
+  "sure": 381.24051880836487,
+  "config": {
+   "n_embd": 128,
+   "n_head": 4,
+   "n_blok": 4,
+   "block": 64,
+   "dropout": 0.0,
+   "batch": 32,
+   "adim": 4000,
+   "lr": 0.0003
+  }
+ },
+ "8_olcekli_dropout": {
+  "ad": "olcekli (dropout 0.1)",
+  "param": 816705,
+  "train": 1.4552130699157715,
+  "val": 1.6476231813430786,
+  "sure": 546.2874133586884,
+  "config": {
+   "n_embd": 128,
+   "n_head": 4,
+   "n_blok": 4,
+   "block": 64,
+   "dropout": 0.1,
+   "batch": 32,
+   "adim": 4000,
+   "lr": 0.0003
+  }
+ },
+ "_ornek_shakespeare_buyuk": "\n\nKING LEWIS XI:\nNo, make he sun out, annoble court of that her else:\nThe dreament-kengless they here's than in'u\ncertied fame.\nOf your love lold, the rebout are gone.\n\nJULIET:\nThey but not night, 'now she he did not usuch.\n\nHASTINGS:\nI was cames to no before and were could to soul.\n\nCORIOLANUS:\nNoble sto do we weak'd of gentleman?\n\nFirst Citizen:\nStribunes you, she markingbrous wooldness down with is\nWife and reposeditor: that night?\nHeir majesty her an fourth an in men'd breat heir sain:\nGod for a humch'd and the gral is of party,\nHeart i' twere shall smemble looked of oScre,\nTo base this kingg for and reserved which die.\n\nSheethird:\nAnd do it in quick and that anothing heer face:\nSither?\n\nMENENIUS:\nHer, make but a'll made presations from their ebedth\nwordly when welcomes love to me elder'd sigless.\nMeanlesh needs the hands, master; the fairshy withoury.\n\nVIRGILIA:\nWhat she care? help he ender's theses be the glow\nmen purish morer for ran would he had no band\nAbfulty.\n\nCORIOLANUS:\nHer",
+ "_config": {
+  "n_embd": 128,
+  "n_head": 4,
+  "n_blok": 4,
+  "block": 64,
+  "dropout": 0.1,
+  "batch": 32,
+  "adim": 4000,
+  "lr": 0.0003
+ },
+ "9_turkce": {
+  "ad": "olcekli (Turkce)",
+  "param": 822359,
+  "train": 1.6233253479003906,
+  "val": 1.5841102600097656,
+  "sure": 533.6535623073578,
+  "V": 87,
+  "karakter": 962254
+ },
+ "_ornek_turkce": "\nBenir Türkiye'den , hak araşapılanıp anlamasının söylememekten garafalarını yok .\nMekrali Millet Vew ile musufarkatlar karar sul, gösteriyor .\nAma tüm ve ayrıcak aironun bon Topt Errkeğin malidamen pemi kredisini için heyvesini bilmek iyi bir zaman altın ise biz içer bulundan , neq .\nSr. Botel Özcüdeki 1 yıldırınsa bizi en pişi de grubu karardırım cutluculuğun .\nRezae Binas , Ancak Poloplar Brop .\nŞirket , 1162'de bu son olacak 70'ın New Yükselt Tilia riska demirler ile yönetimi 4 Adım Esers Komesi'nden Verkez'ın Holda'ya, Şiman çıkıp, 20 Yoka Paransı açak, tek Terkvil 1 Tol adını adamını ile direyek edildi .\nFeki Her A(NDTTI habi Şöpusn şadam beredi boğusunu insan yüzde yetim .\nŞimdi çoğu kötü Viller : Ramis Am ifadeki ve sorumlular 10006 puan iş..\nKonuştuğum içerişimiz ve arttıltımı için toplamıştı, bulu başında çayıp bir sonuncu tencihnünü bazı vermişti:\nBirçok o fuzluklara işare yanın iki alan seçiminden biraz yöntemi vizayı dönemiyorlar, örnünü göderecek tiparidir.\nAntersonel mesl",
+ "_tr_alfabe": "\n !\"'(),-.0123456789:;?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÇÖÜçöüĞğİıŞş"
+}

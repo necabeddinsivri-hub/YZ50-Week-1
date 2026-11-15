@@ -1,0 +1,335 @@
+{
+ "temel_ilk20": [
+  "ı",
+  "n ",
+  "ar",
+  "ü",
+  "e ",
+  "a ",
+  "er",
+  "ş",
+  "i ",
+  ".\\u000a",
+  "ı ",
+  "ir",
+  "ç",
+  "an",
+  "ğ",
+  "k ",
+  "in",
+  "lar",
+  "il",
+  ", "
+ ],
+ "regex_ilk20": [
+  "ı",
+  "ar",
+  "ü",
+  "er",
+  "ş",
+  "an",
+  " b",
+  ".\\u000a",
+  "in",
+  "en",
+  "ir",
+  " d",
+  "ın",
+  "ç",
+  " k",
+  "ğ",
+  "lar",
+  "il",
+  " y",
+  " s"
+ ],
+ "ilk20_ayni": 1,
+ "temel_sonek": 243,
+ "regex_sonek": 0,
+ "temel_nokt": 61,
+ "regex_nokt": 11,
+ "temel_onek": 30,
+ "regex_onek": 322,
+ "temel_sonek_ornek": [
+  "n ",
+  "e ",
+  "a ",
+  "i ",
+  "ı ",
+  "k ",
+  "u ",
+  "ir "
+ ],
+ "temel_nokt_ornek": [
+  ".\nB",
+  ".\nA",
+  "'n",
+  "ı .\n",
+  "a, ",
+  "i, "
+ ],
+ "regex_onek_ornek": [
+  " b",
+  " d",
+  " k",
+  " y",
+  " s",
+  " g",
+  " o",
+  " i"
+ ],
+ "regex_nokt_ornek": [
+  "'d",
+  "'n",
+  "'in",
+  "'ın",
+  "'nin",
+  "'t",
+  "'nın",
+  "'y"
+ ],
+ "dilim_byte": 219318,
+ "temel_token": 83116,
+ "regex_token": 82880,
+ "temel_oran": 2.638697723663314,
+ "regex_oran": 2.64621138996139,
+ "egitim_sn": 209.36197137832642,
+ "kesme": {
+  "Ankara'dan": [
+   "Ankara",
+   "'d",
+   "an"
+  ],
+  "İstanbul'da": [
+   "İstanbul",
+   "'d",
+   "a"
+  ],
+  "Türkiye'nin": [
+   "Türkiye",
+   "'nin"
+  ],
+  "2026'da": [
+   "202",
+   "6",
+   "'d",
+   "a"
+  ],
+  "Ahmet'le": [
+   "Ahmet",
+   "'le"
+  ],
+  "YZ50'nin": [
+   "YZ",
+   "50",
+   "'nin"
+  ],
+  "ABD'ye": [
+   "ABD",
+   "'ye"
+  ],
+  "Çiğdem'in": [
+   "Çiğdem",
+   "'in"
+  ]
+ },
+ "ek_bozuk": [
+  [
+   "'da",
+   [
+    "Ankara",
+    "'d",
+    "a"
+   ]
+  ],
+  [
+   "'de",
+   [
+    "Ankara",
+    "'d",
+    "e"
+   ]
+  ],
+  [
+   "'ta",
+   [
+    "Ankara",
+    "'t",
+    "a"
+   ]
+  ],
+  [
+   "'te",
+   [
+    "Ankara",
+    "'t",
+    "e"
+   ]
+  ],
+  [
+   "'dan",
+   [
+    "Ankara",
+    "'d",
+    "an"
+   ]
+  ],
+  [
+   "'den",
+   [
+    "Ankara",
+    "'d",
+    "en"
+   ]
+  ],
+  [
+   "'tan",
+   [
+    "Ankara",
+    "'t",
+    "an"
+   ]
+  ],
+  [
+   "'ten",
+   [
+    "Ankara",
+    "'t",
+    "en"
+   ]
+  ],
+  [
+   "'si",
+   [
+    "Ankara",
+    "'s",
+    "i"
+   ]
+  ],
+  [
+   "'sı",
+   [
+    "Ankara",
+    "'s",
+    "ı"
+   ]
+  ],
+  [
+   "'mi",
+   [
+    "Ankara",
+    "'m",
+    "i"
+   ]
+  ],
+  [
+   "'mı",
+   [
+    "Ankara",
+    "'m",
+    "ı"
+   ]
+  ]
+ ],
+ "ek_temiz": [
+  [
+   "'nin",
+   [
+    "Ankara",
+    "'nin"
+   ]
+  ],
+  [
+   "'nın",
+   [
+    "Ankara",
+    "'nın"
+   ]
+  ],
+  [
+   "'in",
+   [
+    "Ankara",
+    "'in"
+   ]
+  ],
+  [
+   "'ın",
+   [
+    "Ankara",
+    "'ın"
+   ]
+  ],
+  [
+   "'ye",
+   [
+    "Ankara",
+    "'ye"
+   ]
+  ],
+  [
+   "'ya",
+   [
+    "Ankara",
+    "'ya"
+   ]
+  ],
+  [
+   "'e",
+   [
+    "Ankara",
+    "'e"
+   ]
+  ],
+  [
+   "'a",
+   [
+    "Ankara",
+    "'a"
+   ]
+  ],
+  [
+   "'le",
+   [
+    "Ankara",
+    "'le"
+   ]
+  ],
+  [
+   "'la",
+   [
+    "Ankara",
+    "'la"
+   ]
+  ],
+  [
+   "'ler",
+   [
+    "Ankara",
+    "'ler"
+   ]
+  ],
+  [
+   "'lar",
+   [
+    "Ankara",
+    "'lar"
+   ]
+  ],
+  [
+   "'nde",
+   [
+    "Ankara",
+    "'nde"
+   ]
+  ],
+  [
+   "'ndan",
+   [
+    "Ankara",
+    "'ndan"
+   ]
+  ]
+ ],
+ "ek_toplam": 26
+}
